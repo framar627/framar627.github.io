@@ -1,7 +1,26 @@
-html, body {
+html,
+body {
     height: 100%;
-    margin: 0;  
-    font-family: Rubik, Arial, Helvetica, sans-serif;  
+    margin: 0;
+    font-family: Arial;
+}
+
+.page-header {
+    background-color: rgb(18, 36, 83);
+    display: flex;
+    width: 100%;
+    color: rgb(42, 42, 42);
+    height: 8em;
+    vertical-align: middle;
+}
+
+.page-header h1 {
+    text-align: center;
+    margin: auto;
+    color: rgb(141, 141, 111);
+    font-size: 5em;
+    font-family: Arial;
+    font-weight: 600;
 }
 
 body {
@@ -10,51 +29,33 @@ body {
     padding: 0em;
 }
 
-
-.page-header {
-    background-color: #2F3442;
-    display: flex;
-    width: 100%;
-    color: #DFDCC4;
-    height: 6em;
-    vertical-align: middle;    
-}
-.page-header h1 {
-    text-align: center;
-    margin: auto;
-    color: #DFDCC4;
-    font-size: 2em;
-    font-family: Barlow, Arial, Helvetica, sans-serif;
-    font-weight: 600;
-}
-
-.header-profile-pic {
+.profile {
     height: 16em;
     margin-top: 1em;
     margin-right: 1em;
     z-index: 100;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.35);
+
 }
 
 .content {
     flex: 1 0 auto;
-    margin: .5em 1em;
+    margin: .8em 1em;
 }
 
 .content hr {
-    
+
     z-index: 5;
 }
 
 footer {
-    flex-shrink:0;
-    background-color: #2F3442;    
+    flex-shrink: 0;
+    background-color: rgb(18, 36, 83);
     width: 100%;
     padding-bottom: 1em;
 }
 
-.footer-info {    
-    color: #DFDCC4;  
+.footer-info {
+    color: #DFDCC4;
 }
 
 .footer-info a {
@@ -63,15 +64,15 @@ footer {
 
 .footer-updated {
     color: #2EA8A9;
-    text-align: center;    
+    text-align: center;
 }
 
 .flex-list {
     position: relative;
     margin: 1em;
-    overflow: hidden; 
-    display: table;  
-    margin: 0 auto; 
+    overflow: hidden;
+    display: table;
+    margin: 0 auto;
 }
 
 .flex-list ul {
