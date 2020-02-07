@@ -21,7 +21,7 @@ nav ul {
 }
 nav li a {
 	display: block;
-	color: #0B8066;
+	color:  rgb(18, 36, 83);
 	font-family: 'Yeseva One', cursive;
 	text-align: center;
 	padding: 0.75rem;
@@ -29,7 +29,7 @@ nav li a {
 	font-size: 0.95rem;
 }
 nav a:hover {
-	background-color: #0B8066;
+	background-color:  rgb(18, 36, 83);
     color: #E5E9Ea;
     border-radius:10px;
 }
@@ -49,7 +49,7 @@ header, footer{
     margin: 1.25rem auto;
     padding:1rem;
     text-align: center;
-    background-color: #0B8066;
+    background-color: rgb(18, 36, 83);
     color: #E5E9EA;
 }
 header h1 {

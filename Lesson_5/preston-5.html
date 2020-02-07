@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+		<title>Preston Town| Frank B. Cosme | BYU-Idaho</title>	
+		<meta name="description" content="Assignment portal page for Frank B. Cosme in CIT 230: Web Front-End Development at Brigham Young University-Idaho">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat%7cYeseva+One&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/small.css">
+	    <link rel="stylesheet" href="css/middle.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <script src ="js/lastmod.js" defer></script>
+        <script src ="js/hamburgermenu.js"></script>
+        <script src ="js/pancakes_msg.js"></script>
+	</head>
+    <body onload="UpdateDates()">
+        <div class="pancakes">
+            <span> Saturday = Preston Pancakes in the Park!<br>
+                9:00 a.m. Saturday at the city park pavilion.</span>
+        </div>
+        <script> 
+                show_pancakes_msg();
+        </script>
+        <header>
+            <img class="logo" src="images/weather.png" alt="Weather Site - Love for nature Logo">
+            <section class="headings">
+                <h1>Weather Site - Think Green</h1>
+                <div class="slogan">Safeguarding the environment helps improve the weather</div>
+            </section>
+        </header>
+    
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="preston-5.html" class="activepage">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+    
+        <main>
+                <h2>Preston Idaho </h2>
+                <div class="hero">
+                    <img id="PostOffice" src="images/PostOffice.jpg" alt="Picture of Preston">
+        
+                    <div class="CurrentWeather">
+                        <h2 id="WeatherSummaryTtle">Weather Summary</h2>
+                        <hr>
+        
+                        <div class="CurrentLabel"><b>Current: </b><span class="blue">Rainny</span> </div>
+                        <div class="CurrentLabel"><b>High: </b><span class="blue">44 &#186;F</span> </div>
+                        <div class="CurrentLabel"><b>Wind Chill: </b><span class="blue">38 &#186;F</span> </div>
+                        <div class="CurrentLabel"><b>Humidity: </b><span class="blue">82%</span> </div>
+                        <div class="CurrentLabel"><b>Wind Speed: </b><span class="blue">12 mph</span> </div>
+        
+                    </div>
+        
+                </div>
+
+            <div class="fivedaytable">
+
+                <h3>5 Day Forecast</h3>
+                <table>
+                    <tr>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="images/cloudy.png" alt="Cloudy weather icon">
+                            <br>
+                            <span>51° 32°</span>
+                        </td>
+                        <td>
+                            <img src="images/sunny.png" alt="Sunny weather icon">
+                            <br>
+                            <span>45° 21°</span>
+                        </td>
+                        <td>
+                            <img src="images/snowy.png" alt="Snowy weather icon">
+                            <br>
+                            <span>42° 27°</span>
+                        </td>
+                        <td>
+                            <img src="images/rainny.png" alt="Rainny weather icon">
+                            <br>
+                            <span>44° 28°</span>
+                        </td>
+                        <td>
+                            <img src="images/cloudy.png" alt="Cloudy weather icon">
+                            <br>
+                            <span>47° 31°</span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="ArticleSection">
+                <img src="images/OneidaStakeAcademy.jpeg" alt="Image of a house" class="articleimage">
+
+                <h3>Oneida Stake Academy</h3>
+
+                <span class="authorquote">by Tadeo Santana</span>
+
+                <p>The Oneida Stake Academy was a secondary school operated by the Oneida Stake of 
+                    The Church of Jesus Christ of Latter-day Saints from 1888 to 1922. 
+                    The academy building was constructed in Preston, Idaho, in 1895, after the stake 
+                    headquarters moved from Franklin, Idaho, in 1889.</p>
+
+                <p>Among its alumni were Ezra Taft Benson and Harold B. Lee, both of whom were later 
+                    presidents of the church. Medal of Honor recipients Mervyn S. Bennion, Leonard Brostrom 
+                    and Junior Van Noy also attended the school.</p>
+
+                <p>Following the emergence of the LDS seminaries and better-equipped public schools, the 
+                    The Church of Jesus Christ of Latter-day Saints decided to close its system of secondary 
+                    academies. In 1922, the Oneida Stake Academy was dissolved, although the public school 
+                    system continued to use the building until 1990.</p>
+
+                <p>In 2003, the building was moved using funds raised by the Mormon Historic Sites Foundation 
+                    to a new site called Benson Park that had been donated by the Church of Jesus Christ of Latter-day
+                    .</p>
+            </div>
+            <div class="contact">
+                <img src="images/PrestonMap.png" alt="Map of Preston" class="map">
+
+                <h3>Contact Information</h3>
+
+                <p>100 E Oneida St,</p>
+                <p> Preston, ID 83263, United States</p>
+                <p><span>&#9742; Phone Number: 809-353-3723</span></p>
+                <p><span>&#9993; E-mail: http://lovefornature.org"</span></p>
+                <span>
+                <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook" class="socialmedia"></a>
+                <a href="https://www.twitter.com/"><img src="images/twitter.png" alt="Twitter" class="socialmedia"></a>
+                <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram" class="socialmedia"></a>
+                <a href="https://www.youtube.com/"><img src="images/youtube.png" alt="Youtube" class="socialmedia"></a>
+                </span>
+                <br><br><br>
+                <div class="clearfix"></div>
+            </div>
+        </main>
+
+            <footer>
+                <div class="footer">
+                    <small>
+                        &copy; <span id="copyrightdate"></span> &star; Weather Site - Love For Nature &star; Frank B. Cosme &star;
+                    </small>
+        
+                    <br>
+        
+                    <small id="lastMod">
+                        <span id="currentdate"></span>
+                    </small>
+                </div>
+            </footer>
+    </body>
