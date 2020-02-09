@@ -56,13 +56,13 @@ header {
     box-shadow: 0 0 30px #111;
     opacity: .8;
     font-family: 'Yeseva One', cursive;
-    color: #ffffff; 
+    color:  black; 
     text-shadow: 2px 2px 5px black;
     font-size: 24px;
 }
 
 .CurrentWeather h2 {
-    color: #ffffff; 
+    color:  black; 
     text-shadow: 2px 2px black;
 }
 
@@ -72,7 +72,7 @@ header {
 
 
 .blue {
-    color: #5caed0;
+    color: rgb(18, 36, 83);
     text-shadow: 2px 2px black;  
     font-size: 24px;
 }
@@ -122,13 +122,13 @@ table {
     font-family: 'Montserrat', sans-serif;
 }
 a.activepage:link {
-    background-color: #0B8066;
+    background-color:rgb(18, 36, 83);
     color: #E5E9EA;
     border-radius:10px;
     box-shadow: inset 0 0 6px;
 }
 a.activepage:visited {
-    background-color: #0B8066;
+    background-color: rgb(18, 36, 83);
     color: #E5E9EA;
     border-radius:10px;
     box-shadow: inset 0 0 6px;
@@ -252,7 +252,7 @@ a:hover {
 }
 
 h1 {
-    color: #5caed0;
+    color: rgb(18, 36, 83);
     text-align: center;
     font-family: 'Yeseva One', cursive;
     text-shadow: 2px 2px black;
@@ -274,7 +274,7 @@ h2 {
 }
 
 h3 {
-    color: #5caed0;
+    color: rgb(18, 36, 83);
     text-align: center;
     font-family: 'Yeseva One', cursive;
     text-shadow: 2px 2px black;
