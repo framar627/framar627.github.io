@@ -212,7 +212,7 @@ ul {
 
 nav {
     font-family: 'Montserrat', sans-serif;
-    background-color: #5CAED0;
+    background-color: rgb(18, 36, 83);
     border:1px solid #000;
     box-shadow: inset 0 0 6px;
 }
@@ -282,7 +282,7 @@ h2 {
 }
 
 h3 {
-    color: #5caed0;
+    color: rgb(18, 36, 83);
     text-align: center;
     font-family: 'Yeseva One', cursive;
     text-shadow: 2px 2px black;
