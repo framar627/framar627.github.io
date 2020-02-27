@@ -1,0 +1,47 @@
+table {
+    table-layout: fixed;
+    box-shadow: 10px 10px 10px #628ca6;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size:1.3rem;
+    margin:0 auto;
+}
+
+table, tr, td, th {
+    border: 2px solid darkgray;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e7ffed;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #e7f0ed;
+}
+
+thead tr th, tfoot {
+    background-color: #7fb9c2 ;
+}
+
+thead tr td {
+    background-color: #628ca6;
+    color: white;
+    font-weight:bold;
+}
+
+thead tr th {
+    font-size: 2rem;
+    font-weight:bold;
+}
+
+tfoot {
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.November {
+    color: white;
+    background-color: #628ca6;
+}
