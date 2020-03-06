@@ -68,13 +68,14 @@ header {
 }
 
 .displaytowns section div {
-    background: #0B8066;
+    background: rgb(18, 36, 83);
     font-family: 'Montserrat', sans-serif;
     max-width: 100%;
     width: 90%;
     line-height: 250%;
     margin-right: auto;
     margin-left: auto;
+    color: #E5E9EA;
 }
 
 .displaytowns section h4 {
@@ -310,7 +311,7 @@ nav {
 }
 
 a {
-    color: #0B8066;
+    color: rgb(18, 36, 83);
     text-decoration: none;
 }
 
@@ -476,3 +477,4 @@ input#severity{
     width:50%;
     vertical-align: middle;
 }
+
