@@ -1,0 +1,91 @@
+/* Wide Desktop view*/
+@media only screen and (min-width: 60em) {
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigatoin li a {
+        color: #40c9a2;
+    }
+    .logo {
+        width:150px;
+    }
+    .ArticleSection img {
+        float: right;
+        margin: 1em;
+     }
+     .map {
+        float: left;
+        max-width: 80%;
+        width: 400px;
+        display:block;
+        margin:20px;
+     }
+    footer {
+        max-width: 960px;
+        font-size: 1.3rem;
+    }
+    .slogan {
+        font-size: 1rem;
+    }
+
+    figure:hover{
+        box-shadow: 10px 10px 10px 10px gray;
+    }
+
+    .gallery {
+        width:100%;
+        display:grid; 
+        grid-template-columns: auto auto auto;
+    } 
+
+    .hero img {
+        width: 100%;
+    } 
+    .hero, .forcast, .article {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+    #lastMod {
+        font-size: 1rem;
+    }
+    nav li a {
+        font-size: 1.1rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+
+    ol {
+        font-size: 1.3rem;
+    }
+
+    ul {
+        font-size: 1.3rem;
+    }
+    
+    h4 {
+        font-size: 1.3rem;
+    }
+}
