@@ -133,16 +133,22 @@ header {
     text-shadow: 2px 2px black;
 }
 
+
 .CurrentLabel {
     justify-content: right;
     font-size: 1rem;
+   
 }
 
 .blue {
-    color: rgb(18, 36, 83);
+    color:#E5E9EA;
     text-shadow: 2px 2px black;  
     font-size: 1rem;
 }
+
+#CurrentTemperature {
+    color: #E5E9EA;
+} 
 
 .yellow {
     color: yellow;
