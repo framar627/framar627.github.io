@@ -1,0 +1,144 @@
+/* Wide Desktop view*/
+@media only screen and (min-width: 60em) {
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigatoin li a {
+        color: #40c9a2;
+    }
+    .logo {
+        width:150px;
+    }
+    .ArticleSection img {
+        float: right;
+        margin: 1em;
+     }
+     .map {
+        float: left;
+        max-width: 80%;
+        width: 400px;
+        display:block;
+        margin:20px;
+     }
+    footer {
+        max-width: 960px;
+        font-size: 1.3rem;
+    }
+    .slogan {
+        font-size: 1rem;
+    }
+
+    figure:hover{
+        box-shadow: 10px 10px 10px 10px gray;
+    }
+
+    .gallery {
+        width:100%;
+        display:grid; 
+        grid-template-columns: auto auto auto;
+    }
+    
+    .displaytowns {
+        display:grid; 
+        grid-template-columns: auto auto auto;
+    }
+
+    .displaytowns section div:nth-child(1) {
+        max-width: 90%;
+      }
+
+      .displaytowns section div:nth-child(2) {
+        max-width: 90%;
+      }
+
+      .displaytowns section {
+        display: block;   
+        justify-content: center;
+        text-align: center;
+        background: #5caed0;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .displaytowns img {
+        max-width: 100%;
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .displaytowns section div {
+        background: #0B8066;
+        max-width: 100%;
+        width: 90%;
+        line-height: 250%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .CurrentLabel {
+        justify-content: right;
+        font-size: 1.5rem;
+    }
+    
+    .blue {
+        color: #5caed0;
+        text-shadow: 2px 2px black;  
+        font-size: 1.5rem;
+    }
+    .displaytowns section h4 {
+        color:#ffff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        line-height: 100%;
+    }
+    
+    .hero img {
+        width: 100%;
+    } 
+    .hero, .forcast, .article {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        
+    }
+    #lastMod {
+        font-size: 1rem;
+    }
+    nav li a {
+        font-size: 1.1rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+
+    ol {
+        font-size: 1.3rem;
+    }
+
+    ul {
+        font-size: 1.3rem;
+    }
+    
+    h4 {
+        font-size: 1.3rem;
+    }
+}

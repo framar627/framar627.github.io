@@ -1,0 +1,33 @@
+.lazylayout {
+    display: grid; 
+    justify-content: center;
+    grid-auto-columns: 300px;
+    text-align: center;
+}    
+
+img {
+  margin: 7px;
+  border-radius: 10px;
+  max-width: 300px;
+}
+
+img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
+
+h1 {
+    font-weight: bolder;
+  }
+
+figure{
+  margin:20px auto;
+  display:block;
+  max-width:100%;
+  width:max-content;
+  text-align:center;
+}
