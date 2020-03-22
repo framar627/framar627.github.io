@@ -24,7 +24,7 @@ fetch(dataSourceURL)
                           
                 let info = document.createElement('div');
                 let name = document.createElement('h2');
-                let motto = document.createElement('h4');
+                let motto = document.createElement('h3');
                 let founded = document.createElement('div');
                 let population = document.createElement('div');
                 let rainfall = document.createElement('div');
@@ -44,14 +44,7 @@ fetch(dataSourceURL)
                 population.textContent = 'Population: ' + towns[i].currentPopulation;
                 population.classList.add('population');
                 rainfall.textContent = 'Annual Rainfall: ' + towns[i].averageRainfall;
-                rainfall.classList.add('rainfall');
-                
-                history.textContent = ('History: The city of ' + towns[i].name + ' was founded in ' + towns[i].yearFounded +
-                '. We invite you to our beautiful and quiet city which has a population of ' + towns[i].currentPopulation +
-                ' people. Our climate is perfect for almost any activity. The annual percipitation is ' + towns[i].averageRainfall +
-                '. Each season has its own attractions, be it sunny to enjoy in the park with the family, cool to enjoy the scenery or snow to ski. We will be waiting for you!');
-                history.classList.add('history');
-                
+                rainfall.classList.add('rainfall');              
                 info.classList.add('info');
                 info.appendChild(name);
                 info.appendChild(motto);

@@ -4,6 +4,11 @@
         display: flex;
     }
 
+    ul.navigation {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
     .navigation li:first-child {
         display: none;
     }
@@ -14,7 +19,7 @@
     }
 
     .navigatoin li a {
-        color: #40c9a2;
+        color: #000000;
     }
     .logo {
         width:150px;
@@ -28,7 +33,7 @@
         max-width: 80%;
         width: 400px;
         display:block;
-        margin:20px;
+        margin:15px;
      }
     footer {
         max-width: 960px;
@@ -50,7 +55,9 @@
     
     .displaytowns {
         display:grid; 
-        grid-template-columns: auto auto auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 960px;
+        margin: 0 auto;
     }
 
     .displaytowns section div:nth-child(1) {
@@ -62,22 +69,27 @@
       }
 
       .displaytowns section {
+        height: 416px;
+        position: relative;
         display: block;   
         justify-content: center;
         text-align: center;
-        background: #5caed0;
         padding: 20px;
         margin: 10px;
     }
 
     .displaytowns img {
-        max-width: 100%;
-        width: 90%;
-        margin-right: auto;
-        margin-left: auto;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
     }
     .displaytowns section div {
-        background: #0B8066;
+        background: #66BB6A;
+        color: #000000;
+        font-weight: bold;
         max-width: 100%;
         width: 90%;
         line-height: 250%;
@@ -86,15 +98,12 @@
     }
 
     .CurrentLabel {
-        justify-content: right;
-        font-size: 1.5rem;
+        color: #000000;
+        font-weight: bold;
+        /*text-shadow: 2px 2px black;*/
+        font-family: 'Montserrat', sans-serif;
     }
     
-    .blue {
-        color: #5caed0;
-        text-shadow: 2px 2px black;  
-        font-size: 1.5rem;
-    }
     .displaytowns section h4 {
         color:#ffff;
         font-family: 'Montserrat', sans-serif;
@@ -127,7 +136,7 @@
     }
 
     p {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     ol {
