@@ -9,7 +9,7 @@ let cerrado = true;
 function menus(){
     let Desplazamiento_Actual = window.pageYOffset;
 
-    if(Desplazamiento_Actual <= 300){
+    if(Desplazamiento_Actual <= 100){
         nav.classList.remove('nav2');
         nav.className = ('nav1');
         $("#logoicon").attr("src","/Salmon_River/images/logo.png");
