@@ -1,0 +1,348 @@
+:root {
+  --color1: hsl(173, 71%, 28%);
+  --color2: hsl(142, 37%, 45%);
+  --color3: hsl(141, 28%, 58%);
+  --background: #f2f2f2;
+  --titles: 33px;
+  --margins: 60px;
+  --spaces: 10px;
+  --spacestopic: 45px;
+  --fontfamily: 'Baloo 2', cursive; 
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--fontfamily);
+  background: var(--background);
+}
+
+img {
+  vertical-align: top;
+}
+
+/* Header */
+
+header {
+  width: 100%;
+  height: 80px;
+  background: linear-gradient(to bottom,
+      rgba(211, 135, 20, .6),
+      rgba(29, 241, 171, .6),
+      rgba(7, 109, 150, .45));
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+}
+
+.nav1 {
+  background: transparent;
+  height: 80px;
+  color: #fff;
+}
+
+.nav2 {
+  background: var(--background);
+  height: 100px;
+  color: #000;
+
+}
+
+.container-nav {
+  display: flex;
+  margin: auto;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  height: inherit;
+  overflow: hidden;
+
+}
+
+nav .links a {
+  display: inline-block;
+  padding: 5px 0;
+  margin-right: 17px;
+  font-size: 17px;
+  font-weight: 300;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  color: inherit;
+
+}
+
+nav .links a:hover {
+  border-bottom: 3px solid var(--color1);
+  transition: 0.6s;
+}
+
+.logo,
+.logo img {
+  height: 200px;
+}
+
+.icon {
+  display: none;
+  font-size: 24px;
+  padding: 23.5px 20px;
+
+}
+
+.text {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  overflow: hidden;
+  text-align: center;
+}
+
+.text>h1 {
+  font-size: 80px;
+  ;
+}
+
+.text>h2 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+/* Main */
+.container {
+  margin: auto;
+  padding: var(--margins) 0;
+  padding: var(--margins) 0;
+  width: 90%;
+  max-width: 1000px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.container h3 {
+  font-size: var(--titles);
+  color: var(--color1);
+  margin-bottom: var(--spaces);
+}
+
+.container p {
+  font-size: var(--subtitulos);
+  font-weight: 300;
+  color:var(--color2);
+  text-align: left;
+}
+
+.after::after {
+  content: '';
+  display: block;
+  margin: auto;
+  margin-top: var(--spaces);
+  width: 100px;
+  height: 2px;
+  background: var(--color1);
+  margin-bottom: var(--spacestopic);
+  
+}
+.card {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+  
+}
+
+.content-card {
+  width: 31%;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+  overflow: hidden;
+  height: 450px;
+  background-color:#c2c5bb;
+  font-size: 17px; 
+}
+
+.buttons-work {
+  overflow: hidden;
+}
+
+.buttons-work li {
+  display: inline-block;
+  text-align: center;
+  margin-left: var(--spaces);
+  margin-bottom: var(--spacestopic);
+  padding: 6px 12px;
+  border: 1px solid var(--color1);
+  list-style: none;
+  color: var(--color1);
+}
+
+.buttons-work li:hover {
+  background: var(--color1);
+  color: #fff;
+  cursor: pointer;
+}
+
+.buttons-work .active {
+  background: var(--color1);
+  color: #fff;
+}
+
+.galery-work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cont-work {
+  width: 31%;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+  height: 300px;
+  overflow: hidden;
+  margin-bottom: var(--espacios-contenido);
+}
+
+.img-work {
+  height: 90%;
+  width: 100%;
+}
+
+.img-work img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.text-work {
+  height: 10%;
+}
+
+.text-work h4 {
+  line-height: 30px;
+  font-weight: 300;
+}
+
+/* article section */
+
+.ArticleSection {
+  max-width: 960px;
+  display: block;
+  margin: auto;
+  background-color: #E5E9EA;
+  font-size: 16px;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+
+.ArticleSection img {
+  float: right;
+  margin: 1em;
+  width: 500px;
+  height: 370px;
+}
+.ArticleSection2 {
+  max-width: 960px;
+  display: block;
+  margin: auto;
+  background-color: #E5E9EA;
+  font-size: 16px;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+.ArticleSection2 img {
+  float: left;
+  margin: 1em;
+  width: 500px;
+  height: 370px;
+}
+
+h1 {
+  color: var(--color1);
+  text-align: center;
+  font-family: var(--fontfamily); 
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: var(--spaces);
+}
+h2 {
+  color: var(--color2);
+  text-align: center;
+  font-family: var(--fontfamily); 
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: var(--spaces);
+}
+h3 {
+  font-size: 20px;
+  color:var(--color2);
+  text-align: center;
+  font-family: var(--fontfamily);
+  margin-bottom: var(--spaces);
+  padding: 10px;
+}
+
+p {
+  padding: 0px 15px;
+  margin-bottom: var(--spaces);
+
+}
+
+/* Footer */
+
+footer {
+  background: url(/Salmon_River/images/teclado.jpg);
+  height: auto;
+  padding: 1rem;
+
+}
+
+.contact {
+  max-width: 960px;
+  display: block;
+  margin: auto;
+  font-size: 20px;
+  font-family: 'Baloo 2', cursive;
+  text-align: center;
+  border-top: 50px;
+  color: #f2f2f2;
+  margin-bottom: var(--spacestopic);
+
+}
+
+.contact p {
+  margin-bottom: var(--spaces);
+  margin-top: var(--spaces);
+}
+
+.contact h3 {
+  margin-top: var(--spacestopic);
+
+}
+
+.map {
+  float: left;
+  max-width: 90%;
+  display: block;
+  margin: auto;
+  margin-top: var(--spaces);
+
+}
+
+.container-footer {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,64 @@
+@media screen and (max-width: 700px) {
+  .nav2 {
+    color: #fff;
+  }
+
+  .about {
+    width: auto;
+  }
+
+  .CurrentWeather {
+    width: auto;
+  }
+
+  .icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .links {
+    position: fixed;
+    top: 80px;
+    background: #2c3e50;
+    left: 0;
+    height: 100%;
+    transition: 1s;
+    width: 0;
+    overflow: hidden;
+  }
+
+  .links a {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    text-align: center;
+    background: #34495e;
+    color: #fff;
+  }
+
+  .text>h1 {
+    font-size: 70px;
+  }
+
+  .text>h2 {
+    font-size: 35px;
+  }
+
+  .content-card {
+    width: 48%;
+    margin-bottom: var(--margins);
+  }
+
+  .map {
+   padding: 0;
+  }
+  .container-footer {
+     flex-direction: column;
+  }
+  
+
+  :root {
+    --margins: 30px;
+  }
+}
