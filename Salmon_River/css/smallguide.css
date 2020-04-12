@@ -236,37 +236,6 @@ nav .links a:hover {
 
 /* article section */
 
-.ArticleSection {
-  max-width: 960px;
-  display: block;
-  margin: auto;
-  background-color: #E5E9EA;
-  font-size: 16px;
-  padding-bottom: 15px;
-  margin-bottom: 30px;
-}
-
-.ArticleSection img {
-  float: right;
-  margin: 1em;
-  width: 500px;
-  height: 370px;
-}
-.ArticleSection2 {
-  max-width: 960px;
-  display: block;
-  margin: auto;
-  background-color: #E5E9EA;
-  font-size: 16px;
-  padding-bottom: 15px;
-  margin-bottom: 30px;
-}
-.ArticleSection2 img {
-  float: left;
-  margin: 1em;
-  width: 500px;
-  height: 370px;
-}
 
 h1 {
   color: var(--color1);

@@ -13,13 +13,13 @@ $(function () {
     let river = $('#river').offset().top,
         reservations = $('#reservations').offset().top,
         adventures = $('#adventures').offset().top,
-        contact = $('#contact').offset().top;
+        form = $('#form').offset().top;
 
     window.addEventListener('resize', function(){
         let river = $('#river').offset().top,
         reservations = $('#reservations').offset().top,
         adventures = $('#adventures').offset().top,
-        contact = $('#contact').offset().top;
+        form = $('#form').offset().top;
     });
 
     $('#link-home').on('click', function(e){
@@ -50,10 +50,10 @@ $(function () {
         },600);
     });
 
-    $('#link-contact').on('click', function(e){
+    $('#link-form').on('click', function(e){
         e.preventDefault();
         $('html, body').animate({
-            scrollTop: contact -100
+            scrollTop: form -100
         },600);
     });
 });
