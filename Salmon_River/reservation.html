@@ -8,7 +8,7 @@
         content="Assignment portal page for Frank B. Cosme in CIT 230: Web Front-End Development at Brigham Young University-Idaho">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/smallguide.css">
+    <link rel="stylesheet" href="css/smallreservation.css">
     <link rel="stylesheet" href="css/middle.css">
     <link rel="stylesheet" href="css/large.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
@@ -27,7 +27,7 @@
                     <a href="Salmon-River.html" id="link-home" class="btn-header">Home</a>
                     <a href="#" id="link-river" class="btn-header">River Guides</a>
                     <a href="#" id="link-reservations" class="btn-header">Reservations</a>
-                    <a href="#" id="link-adventures" class="btn-header">Adventures</a>               
+                    <a href="#" id="link-adventures" class="btn-header">Adventures</a>
                     <a href="#" id="link-contact" class="btn-header">Contact Us</a>
                 </div>
                 <div class="icon" id="open">
@@ -37,15 +37,63 @@
         </nav>
     </header>
     <main>
-        <div class="text">
-            <h2>Our Guides</h1>
-            <h3>The best people in Idaho</h2>
-        </div>
-        <br><br>
-        <div class="displayguides"></div>
-        
+        <div class="stormcenter">
+            <h2>Booking your Trip</h2>
+            <form action="thanks.html" method="get">
+                <div class="section">
+                    <span>contact</span>Customer Information</div>
+                <div class="subsection">
+                    <label>Full Name*<input type="text" name="fullname" placeholder="" pattern="[A-z\s]{5,}" required
+                            autocomplete="off"></label>
+                    <label>Email Address<input type="email" name="email" placeholder="email@domain.com"
+                            autocomplete="off"></label>
+                    <label>Phone Number*<input type="tel" name="phone" pattern="[0-9]+" placeholder="8888888888"
+                            required autocomplete="off"></label>
+                    <label>Zip Code*<input type="number" name="zipcode" required autocomplete="off"></label>
+                </div>
 
-       
+                <div class="section">
+                    <span>report</span>Adventure Selection</div>
+                <div class="subsection">
+                    <label>Start Date<input type="date" name="date"></label>
+
+                    <label>Adventure Type<input type="text" name="stormtype" placeholder="Select Type of Storm"
+                            list="storm">
+                        <br>
+                        <label>
+                            Trip
+                            <select name="region">
+                                <option value="select" disabled selected>Select Region...</option>
+                                <option value="Preston">River Rafting</option>
+                                <option value="Soda Springs">River Scenic Float</option>
+                                <option value="Fish Haven">Wilderness Journeys</option>
+                            </select></label>
+                        <label>
+                            Are you agree with the cost?</label>
+
+                        <label><input type="radio" name="dangerLevel" value="yes"><span
+                                class="radiotext">Yes</span></label>
+                        <label><input type="radio" name="dangerLevel" value="maybe"><span
+                                class="radiotext">Maybe</span></label>
+                        <label><input type="radio" name="dangerLevel" value="no"><span
+                                class="radiotext">No</span></label>
+                </div>
+                <div class="section">
+                    <span>additional</span>Additional Information</div>
+                <div class="subsection">
+                    <label>
+                        Comments and Questions
+                        <textarea name="additionalInfo"></textarea>
+
+                    </label>
+                </div>
+
+                <input type="submit" value="Send Report" class="submitButton">
+
+            </form>
+        </div>
+
+
     </main>
     <footer id="contact">
 
@@ -83,7 +131,6 @@
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>
     <script src="js/filter.js"></script>
-    <script src="js/guides.js"></script>
 </body>
 
 </html>

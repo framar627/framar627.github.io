@@ -1,23 +1,24 @@
 :root {
   --color1: hsl(173, 71%, 28%);
   --color2: hsl(142, 37%, 45%);
-  --color1: hsl(141, 28%, 58%);
+  --color3: hsl(141, 28%, 58%);
   --background: #f2f2f2;
   --titles: 33px;
   --margins: 60px;
   --spaces: 10px;
   --spacestopic: 45px;
+  --fontfamily: 'Baloo 2', cursive;
 
 }
 
 * {
   margin: 0;
-  padding: 0;
+
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Baloo 2', cursive;
+  font-family: var(--fontfamily);
   background: var(--background);
 }
 
@@ -122,11 +123,10 @@ nav .links a:hover {
 }
 
 /* Main */
+
 .container {
   margin: auto;
-  padding: var(--margins) 0;padding: var(--margins) 0;
-  width: 90%;
-  max-width: 1000px;
+  padding: var(--margins) 0;
   text-align: center;
   overflow: hidden;
 }
@@ -158,6 +158,7 @@ nav .links a:hover {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  padding: 4rem;
 }
 
 .content-card {
@@ -184,7 +185,7 @@ nav .links a:hover {
 }
 
 .about {
-  background: url(/Salmon_River/images/teclado.jpg);
+  background:	#3f3f3f;
   height: auto;
   width: 1000px;
   display: block;
@@ -221,6 +222,8 @@ nav .links a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding: 4rem;
+  padding-bottom: 0rem;
 }
 
 .cont-work {
@@ -270,11 +273,16 @@ nav .links a:hover {
   margin: 0 auto;
 
 }
+.booking>button {
+  
+  float: center; 
+
+}
 
 /* Footer */
 
 footer {
-  background: url(/Salmon_River/images/teclado.jpg);
+  background:	#3f3f3f;
   height: auto;
   padding: 1rem;
 
@@ -292,41 +300,120 @@ footer {
   margin-bottom: var(--spacestopic);
 
 }
+
 .contact p {
   margin-bottom: var(--spaces);
   margin-top: var(--spaces);
 }
+
 .contact h3 {
   margin-top: var(--spacestopic);
 
 }
+
 .map {
   float: left;
   max-width: 90%;
   display: block;
   margin: auto;
   margin-top: var(--spaces);
-  
+
 }
+
 .container-footer {
-  display: flex; flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
-/* adventures style */ 
+/*Form*/
 
-.ArticleSection {
-  max-width: 960px;
+.form {
+  width: 350px;
+  height: 440px;
+  background: #e6e6e6;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #000;
+  margin: calc(50vh - 250px) auto;
+  padding: 20px 30px;
+  max-width: calc(100vw - 40px);
+  box-sizing: border-box;
+  font-family: var(--fontfamil);
+}
+
+.form h2 {
+  margin: 10px 0;
+  padding-bottom: 10px;
+  width: 180px;
+  color: #78788c;
+  border-bottom: 3px solid #78788c
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: var(--fontfamily);
+  transition: all .3s;
+  border-bottom: 2px solid #bebed2
+}
+
+input:focus {
+  border-bottom: 2px solid #78788c
+}
+
+p:before {
+  content: attr(type);
   display: block;
-  margin: auto;
-  background-color: #E5E9EA;
-  font-size: 16px;
-  padding-bottom: 15px;
+  margin: 28px 0 0;
+  font-size: 14px;
+  color: #5a5a5a
 }
 
-.ArticleSection img {
-  float: right;
-  margin: 1em;
+button {
+  float: center;
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  font-family: var(--fontfamily);
+  border: 2px solid #78788c;
+  background: var(--color3);
+  color: var(--color1);
+  cursor: pointer;
+  transition: all .3s
 }
-p {
-  font-size: 1rem;
+
+button:hover {
+  background: #78788c;
+  color: #fff
+}
+
+.form div {
+  content: 'Hi';
+  position: absolute;
+  bottom: -15px;
+  right: -20px;
+  background: #50505a;
+  color: #fff;
+  width: 320px;
+  padding: 16px 4px 16px 0;
+  border-radius: 6px;
+  font-size: 13px;
+  box-shadow: 10px 10px 40px -14px #000
+}
+.form>p {
+  text-align: left;
+}
+
+span {
+  margin: 0 5px 0 15px
+}
+
+.form-contact {
+  background: var(--color3);
+  padding: 3rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
 }
