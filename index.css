@@ -44,3 +44,13 @@ text-indent: 30px; / Aplica sangría a la primera línea de cada párrafo */
 margin-bottom: 15px;
 text-align: justify;
 }
+
+  .contenedor-imagenes {
+    display: flex; /* Coloca los elementos uno al lado del otro */
+    gap: 10px;    /* Espacio opcional entre las imágenes */
+  }
+  
+  .contenedor-imagenes img {
+    max-width: 100%; /* Hace que la imagen sea adaptativa */
+    height: auto;
+  }
