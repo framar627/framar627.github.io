@@ -1,0 +1,46 @@
+/* Configuración básica y fuentes */
+body {
+font-family: 'Barlow', sans-serif;
+line-height: 1.6;
+background-color: #f9f9f9;
+color: #333333;
+margin: 0;
+padding: 20px;
+}
+
+/* Encabezados y Tipografía */
+h1, h2, h3 {
+font-family: 'Signika', sans-serif;
+}
+
+header h1 {
+color: #1a2a3a;
+}
+
+.content {
+max-width: 800px;
+margin: 0 auto;
+background-color: #ffffff;
+padding: 30px;
+border-radius: 8px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+color: #2c3e50;
+border-bottom: 2px solid #3498db;
+padding-bottom: 5px;
+margin-top: 30px;
+}
+
+h3 {
+color: #34495e;
+margin-bottom: 5px;
+}
+
+/* Sangría de texto para párrafos /
+p {
+text-indent: 30px; / Aplica sangría a la primera línea de cada párrafo */
+margin-bottom: 15px;
+text-align: justify;
+}
