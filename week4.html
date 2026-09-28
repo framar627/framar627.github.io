@@ -179,6 +179,22 @@ I know that something that brings me security and peace of mind was having hones
 
 <p>I would like to peer review your project. I like that you focused on the user experience and ethical issues such as data privacy, user consent, accessibility, and fairness. Since your project is related to a financial app, I think these considerations are especially important, as users need to feel that their information is protected and that the app is easy and safe to use. I will review your project with a focus on technical improvements, user experience, and the integration of ethical considerations into the design. I look forward to providing you with constructive feedback.</p>
 
+<h3>Report of the changes</h3>
+
+<h3>What I refined</h3>
+
+<h3>Data Privacy</h3>
+
+<p>Taking into account Oritsetimeyin Omagbeosa's advice regarding ethical concerns—such as data privacy—the proposed application will implement dual-layer password protection. Specifically, it will allow for integration with an authenticator app like Google Authenticator or Duo Mobile. This ensures users have no hesitation about using the app, as they can manage their finances securely and reliably with peace of mind.</p>
+
+<h3>User consent</h3>
+
+<p>Regarding user consent, a Consent Management Platform (CMP) architecture will be implemented, allowing users to independently enable or disable specific permissions (e.g., data sharing with third parties, behavioral analysis, credit scoring). Additionally, tokens with restricted scopes (OAuth 2.0 / OpenID Connect) will be used to ensure the backend processes only what the user has explicitly authorized. </p>
+
+<h3>Technical Accesibility</h3>
+
+<p>Regarding technical accessibility, we will implement a contrast ratio that ensures a minimum of 4.5:1 for standard text and 3:1 for interface elements and financial performance charts. We will also ensure screen reader support by structuring the UI using semantic tags (such as `accessibilityLabel` and `accessibilityHint` in React Native/Flutter, or ARIA roles for the web). We will ensure that monetary figures are read correctly—for example, explicitly stating "100 bolivianos" or "100 dollars" rather than reading out confusing, continuous text. Furthermore, we will manage keyboard and assistive technology navigation to guarantee a logical tab/focus order for users relying on external keyboards, screen readers, or voice navigation. Finally, we will implement a clear, high-contrast focus indicator for all buttons and text input fields.</p>
+
 </body>
 
 </html>
