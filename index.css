@@ -54,3 +54,11 @@ text-align: justify;
     max-width: 100%; /* Hace que la imagen sea adaptativa */
     height: auto;
   }
+
+  .video-container video {
+width: 100%;
+height: auto;
+border-radius: 10px;
+border: 2px solid #00aaff;
+
+  }
