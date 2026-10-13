@@ -154,7 +154,7 @@
       margin: 1.5rem 0;
       box-shadow: var(--shadow);
     }
-    video { width: 100%; display: block; max-height: 450px; }
+    video { width: 100%; display: block; max-height: 450px; }*
 
     .image-container {
       background: var(--card-bg);
