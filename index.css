@@ -69,3 +69,5 @@ main img {
     height: auto;
     display: block;
     margin: 0 auto;}
+
+    video { width: 100%; display: block; max-height: 450px; }*
